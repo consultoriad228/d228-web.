@@ -207,12 +207,13 @@ En D228 creemos que el verdadero valor está en acompañar a las personas y orga
 
 <h2>Contacto</h2>
 
-<form>
+<form action="https://formspree.io/f/mrppbbon" method="POST">
 
-<input type="text" placeholder="Nombre">
-<input type="email" placeholder="Correo electrónico">
+<input type="text" name="nombre" placeholder="Nombre" required>
 
-<textarea rows="5" placeholder="¿Cómo podemos ayudarte?"></textarea>
+<input type="email" name="email" placeholder="Correo electrónico" required>
+
+<textarea name="mensaje" rows="5" placeholder="¿Cómo podemos ayudarte?" required></textarea>
 
 <button type="submit">
 Enviar consulta
