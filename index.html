@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D228 | Formación y CAE</title>
+
+<style>
+
+:root{
+    --verde:#b7c8bc;
+    --verde-claro:#f4f7f5;
+    --texto:#4a4a4a;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Segoe UI, sans-serif;
+    color:var(--texto);
+    line-height:1.6;
+}
+
+header{
+    background:var(--verde);
+    text-align:center;
+    padding:80px 20px;
+}
+
+.logo{
+    width:500px;
+    max-width:90%;
+    margin-bottom:30px;
+}
+
+h1{
+    font-size:2.4rem;
+    font-weight:300;
+    margin-bottom:15px;
+    color:white;
+}
+
+header p{
+    color:white;
+    max-width:700px;
+    margin:auto;
+}
+
+.boton{
+    display:inline-block;
+    margin-top:30px;
+    padding:15px 30px;
+    background:white;
+    color:#607467;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:600;
+}
+
+section{
+    max-width:1100px;
+    margin:auto;
+    padding:80px 20px;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#607467;
+}
+
+.servicios{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:var(--verde-claro);
+    padding:30px;
+    border-radius:15px;
+}
+
+.card h3{
+    color:#607467;
+    margin-bottom:15px;
+}
+
+.sobre{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+}
+
+.contacto{
+    background:var(--verde-claro);
+}
+
+form{
+    max-width:700px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+input, textarea{
+    padding:15px;
+    border:1px solid #d9e2dc;
+    border-radius:10px;
+}
+
+button{
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    background:var(--verde);
+    color:white;
+    cursor:pointer;
+    font-size:1rem;
+}
+
+footer{
+    background:var(--verde);
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img src="logo linkedin.jpg" alt="D228" class="logo">
+
+<h1>Formación y Gestión CAE</h1>
+
+<p>
+Ayudamos a empresas, comunidades de propietarios y servicios de prevención
+a simplificar la gestión documental y el cumplimiento preventivo.
+</p>
+
+<a href="#contacto" class="boton">
+Solicitar información
+</a>
+
+</header>
+
+<section>
+
+<h2>Servicios</h2>
+
+<div class="servicios">
+
+<div class="card">
+<h3>Formación PRL</h3>
+<p>
+Formación externa para empresas y servicios de prevención.
+</p>
+</div>
+
+<div class="card">
+<h3>Gestión CAE</h3>
+<p>
+Apoyo documental y coordinación de actividades empresariales.
+</p>
+</div>
+
+<div class="card">
+<h3>Gestión documental</h3>
+<p>
+Control y seguimiento de documentación preventiva.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Sobre D228</h2>
+
+<div class="sobre">
+
+<p>
+D228 nace de la experiencia profesional en prevención de riesgos laborales,
+coordinación empresarial y gestión documental, ofreciendo un servicio cercano,
+ágil y adaptado a las necesidades reales de cada cliente.
+</p>
+
+</div>
+
+</section>
+
+<section class="contacto" id="contacto">
+
+<h2>Contacto</h2>
+
+<form>
+
+<input type="text" placeholder="Nombre">
+l" placeholder="Correo electrónico">
+
+<textarea rows="5" placeholder="¿Cómo podemos ayudarte?"></textarea>
+
+<button type="submit">
+Enviar consulta
+</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© D228 · Formación y CAE</p>
+
+</footer>
+
+</body>
+</html>
